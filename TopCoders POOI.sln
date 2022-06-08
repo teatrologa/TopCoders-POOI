@@ -3,13 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32407.343
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TopCoders POOI Aula1", "TopCoders POOI\TopCoders POOI Aula1.csproj", "{FE78D3A5-49A0-40E7-8590-70C2EE9E3BF2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TopCoders POOI Aula1", "TopCoders POOI\TopCoders POOI Aula1.csproj", "{FE78D3A5-49A0-40E7-8590-70C2EE9E3BF2}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "POOI Aula 1", "POOI Aula 1", "{856F7D6F-D92A-483E-8C78-7346A8A2A47D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "POOI Aula 2", "POOI Aula 2", "{91F7444D-3B33-4B09-9B36-A32A45E904A1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TopCoders POOI Aula2", "TopCoders POOI Aula2\TopCoders POOI Aula2.csproj", "{93CA0027-58BC-4035-90B9-27A2BBED2E72}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TopCoders POOI Aula2", "TopCoders POOI Aula2\TopCoders POOI Aula2.csproj", "{93CA0027-58BC-4035-90B9-27A2BBED2E72}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exercicio Aula 3", "Exercicio Aula 3", "{322929C2-06F4-4EC6-A9BC-0D4EDEBC45B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TopCoders POOI Aula 3 Exercicio", "TopCoders Aula 3 Exercicio\TopCoders POOI Aula 3 Exercicio.csproj", "{1D70D46B-32A8-4476-96EF-6B07993EC365}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,6 +29,10 @@ Global
 		{93CA0027-58BC-4035-90B9-27A2BBED2E72}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{93CA0027-58BC-4035-90B9-27A2BBED2E72}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{93CA0027-58BC-4035-90B9-27A2BBED2E72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D70D46B-32A8-4476-96EF-6B07993EC365}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D70D46B-32A8-4476-96EF-6B07993EC365}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D70D46B-32A8-4476-96EF-6B07993EC365}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D70D46B-32A8-4476-96EF-6B07993EC365}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,6 +40,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{FE78D3A5-49A0-40E7-8590-70C2EE9E3BF2} = {856F7D6F-D92A-483E-8C78-7346A8A2A47D}
 		{93CA0027-58BC-4035-90B9-27A2BBED2E72} = {91F7444D-3B33-4B09-9B36-A32A45E904A1}
+		{1D70D46B-32A8-4476-96EF-6B07993EC365} = {322929C2-06F4-4EC6-A9BC-0D4EDEBC45B4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {66611E27-C1DB-4416-AD0D-5BAFEA5B1258}
