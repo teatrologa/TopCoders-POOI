@@ -29,6 +29,7 @@
             Console.WriteLine(animal.agressividade);
             Console.WriteLine(animal.castracao);
             Console.WriteLine(animal.ObterCodigo());
+            // Console.WriteLine(animal.codigo); //ACHO QUE ESTÁ ASSIM PQ ESTÁ COM O GET
             Console.WriteLine(animal.dataCadastro);
             Console.WriteLine(animal.ObterDataCadastro());
 

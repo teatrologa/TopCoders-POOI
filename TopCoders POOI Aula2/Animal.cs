@@ -25,17 +25,18 @@ namespace TopCoders_POOI_Aula2.Classes
         public Especie especie;
         public Porte porte;
 
-        public Guid ObterCodigo()
-        {
-            return codigo;
-        }
+        // COMENTADO POIS JÁ ESTÁ COM O GET ALI EM CIMA
+        //public Guid ObterCodigo()
+        //{
+        //    return codigo;
+        //}
 
         public DateTime ObterDataCadastro()
         {
             return dataCadastro;
         }
 
-        public void RegistrarNascimento(int ano, int mes, int dia = 0)
+        public void RegistrarNascimento(int ano, int mes, int dia = 1)
         {
             nascimento = new DateTime(ano, mes, dia);
         }
@@ -65,8 +66,8 @@ namespace TopCoders_POOI_Aula2.Classes
 
         public void ImprimirAnimal()
         {
-            Console.WriteLine("\t Essa é a ficha do seu pet.");
-            Console.WriteLine("\t __________________________");
+            Console.WriteLine("\t Ficha do pet.");
+            Console.WriteLine("\t _____________");
             Console.WriteLine(" ");
             Console.WriteLine($"Codigo: {codigo}"); // Forma 1 de escrever
             Console.Write("Nome: ");  // Forma 2 de escrever Write + WriteLine
@@ -80,7 +81,8 @@ namespace TopCoders_POOI_Aula2.Classes
             Console.WriteLine($"Nascimento: {nascimento}");
             Console.WriteLine($"É agressivo? {agressividade}");
             Console.WriteLine($"Realizou castração? {castracao}");
-            
+            Console.WriteLine(" ");
+
 
             if (NecessidadesEspeciais())
             {
